@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6421B234190F844A0066A1D9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6421B233190F844A0066A1D9 /* main.cpp */; };
 		6421B236190F844A0066A1D9 /* SolarSystem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6421B235190F844A0066A1D9 /* SolarSystem.1 */; };
+		6421B23D190F84610066A1D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6421B23C190F84610066A1D9 /* Cocoa.framework */; };
+		6421B23F190F846B0066A1D9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6421B23E190F846B0066A1D9 /* OpenGL.framework */; };
+		6421B241190F84720066A1D9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6421B240190F84720066A1D9 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,54 @@
 		6421B230190F844A0066A1D9 /* SolarSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SolarSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		6421B233190F844A0066A1D9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6421B235190F844A0066A1D9 /* SolarSystem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SolarSystem.1; sourceTree = "<group>"; };
+		6421B23C190F84610066A1D9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6421B23E190F846B0066A1D9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6421B240190F84720066A1D9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6421B246190F84A10066A1D9 /* window_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = window_controller.h; sourceTree = "<group>"; };
+		6421B247190F84A10066A1D9 /* galaxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = galaxy.h; sourceTree = "<group>"; };
+		6421B248190F84A10066A1D9 /* galaxy_constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = galaxy_constants.h; sourceTree = "<group>"; };
+		6421B249190F84AB0066A1D9 /* circle.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = circle.bmp; sourceTree = "<group>"; };
+		6421B24A190F84AB0066A1D9 /* circlealpha.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = circlealpha.bmp; sourceTree = "<group>"; };
+		6421B24B190F84AB0066A1D9 /* galaxy0.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy0.bmp; sourceTree = "<group>"; };
+		6421B24C190F84AB0066A1D9 /* galaxy1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy1.bmp; sourceTree = "<group>"; };
+		6421B24D190F84AB0066A1D9 /* galaxy2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy2.bmp; sourceTree = "<group>"; };
+		6421B24E190F84AB0066A1D9 /* galaxy3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy3.bmp; sourceTree = "<group>"; };
+		6421B24F190F84AB0066A1D9 /* galaxy4.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy4.bmp; sourceTree = "<group>"; };
+		6421B250190F84AB0066A1D9 /* galaxy5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy5.bmp; sourceTree = "<group>"; };
+		6421B251190F84AB0066A1D9 /* galaxy6.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy6.bmp; sourceTree = "<group>"; };
+		6421B252190F84AB0066A1D9 /* galaxy7.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy7.bmp; sourceTree = "<group>"; };
+		6421B253190F84AB0066A1D9 /* galaxy8.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy8.bmp; sourceTree = "<group>"; };
+		6421B254190F84AB0066A1D9 /* galaxy9.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy9.bmp; sourceTree = "<group>"; };
+		6421B255190F84AB0066A1D9 /* galaxy10.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = galaxy10.bmp; sourceTree = "<group>"; };
+		6421B256190F84AB0066A1D9 /* messi.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = messi.bmp; sourceTree = "<group>"; };
+		6421B257190F84AB0066A1D9 /* suntexture.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = suntexture.bmp; sourceTree = "<group>"; };
+		6421B258190F84B60066A1D9 /* triangle_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = triangle_loader.h; sourceTree = "<group>"; };
+		6421B259190F84B60066A1D9 /* auto_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auto_array.h; sourceTree = "<group>"; };
+		6421B25A190F84B60066A1D9 /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		6421B25B190F84B60066A1D9 /* math3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		6421B25C190F84B60066A1D9 /* string_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string_util.h; sourceTree = "<group>"; };
+		6421B25D190F84B60066A1D9 /* vector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector3.h; sourceTree = "<group>"; };
+		6421B25E190F84B60066A1D9 /* texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		6421B25F190F84BF0066A1D9 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		6421B260190F84BF0066A1D9 /* spaceship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spaceship.h; sourceTree = "<group>"; };
+		6421B261190F84BF0066A1D9 /* special_model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = special_model.h; sourceTree = "<group>"; };
+		6421B262190F84BF0066A1D9 /* sun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sun.h; sourceTree = "<group>"; };
+		6421B263190F84BF0066A1D9 /* torpedo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = torpedo.h; sourceTree = "<group>"; };
+		6421B264190F84BF0066A1D9 /* torus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = torus.h; sourceTree = "<group>"; };
+		6421B265190F84BF0066A1D9 /* missile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = missile.h; sourceTree = "<group>"; };
+		6421B266190F84BF0066A1D9 /* moon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moon.h; sourceTree = "<group>"; };
+		6421B267190F84BF0066A1D9 /* colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		6421B268190F84BF0066A1D9 /* object3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object3d.h; sourceTree = "<group>"; };
+		6421B269190F84BF0066A1D9 /* drawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drawable.h; sourceTree = "<group>"; };
+		6421B26A190F84BF0066A1D9 /* explodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = explodable.h; sourceTree = "<group>"; };
+		6421B26B190F84BF0066A1D9 /* movable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movable.h; sourceTree = "<group>"; };
+		6421B26C190F84BF0066A1D9 /* collidable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collidable.h; sourceTree = "<group>"; };
+		6421B26D190F84BF0066A1D9 /* planet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = planet.h; sourceTree = "<group>"; };
+		6421B26E190F84BF0066A1D9 /* light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		6421B26F190F84BF0066A1D9 /* particle_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = particle_engine.h; sourceTree = "<group>"; };
+		6421B270190F84BF0066A1D9 /* missile_moon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = missile_moon.h; sourceTree = "<group>"; };
+		6421B271190F84BF0066A1D9 /* shootable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shootable.h; sourceTree = "<group>"; };
+		6421B272190F84BF0066A1D9 /* oracle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oracle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6421B241190F84720066A1D9 /* GLUT.framework in Frameworks */,
+				6421B23F190F846B0066A1D9 /* OpenGL.framework in Frameworks */,
+				6421B23D190F84610066A1D9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +98,9 @@
 		6421B227190F844A0066A1D9 = {
 			isa = PBXGroup;
 			children = (
+				6421B240190F84720066A1D9 /* GLUT.framework */,
+				6421B23E190F846B0066A1D9 /* OpenGL.framework */,
+				6421B23C190F84610066A1D9 /* Cocoa.framework */,
 				6421B232190F844A0066A1D9 /* SolarSystem */,
 				6421B231190F844A0066A1D9 /* Products */,
 			);
@@ -60,10 +117,87 @@
 		6421B232190F844A0066A1D9 /* SolarSystem */ = {
 			isa = PBXGroup;
 			children = (
+				6421B245190F84970066A1D9 /* util */,
+				6421B244190F848E0066A1D9 /* assets */,
+				6421B243190F84860066A1D9 /* model */,
+				6421B242190F847C0066A1D9 /* controller */,
 				6421B233190F844A0066A1D9 /* main.cpp */,
 				6421B235190F844A0066A1D9 /* SolarSystem.1 */,
 			);
 			path = SolarSystem;
+			sourceTree = "<group>";
+		};
+		6421B242190F847C0066A1D9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6421B246190F84A10066A1D9 /* window_controller.h */,
+				6421B247190F84A10066A1D9 /* galaxy.h */,
+				6421B248190F84A10066A1D9 /* galaxy_constants.h */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		6421B243190F84860066A1D9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6421B25F190F84BF0066A1D9 /* camera.h */,
+				6421B260190F84BF0066A1D9 /* spaceship.h */,
+				6421B261190F84BF0066A1D9 /* special_model.h */,
+				6421B262190F84BF0066A1D9 /* sun.h */,
+				6421B263190F84BF0066A1D9 /* torpedo.h */,
+				6421B264190F84BF0066A1D9 /* torus.h */,
+				6421B265190F84BF0066A1D9 /* missile.h */,
+				6421B266190F84BF0066A1D9 /* moon.h */,
+				6421B267190F84BF0066A1D9 /* colors.h */,
+				6421B268190F84BF0066A1D9 /* object3d.h */,
+				6421B269190F84BF0066A1D9 /* drawable.h */,
+				6421B26A190F84BF0066A1D9 /* explodable.h */,
+				6421B26B190F84BF0066A1D9 /* movable.h */,
+				6421B26C190F84BF0066A1D9 /* collidable.h */,
+				6421B26D190F84BF0066A1D9 /* planet.h */,
+				6421B26E190F84BF0066A1D9 /* light.h */,
+				6421B26F190F84BF0066A1D9 /* particle_engine.h */,
+				6421B270190F84BF0066A1D9 /* missile_moon.h */,
+				6421B271190F84BF0066A1D9 /* shootable.h */,
+				6421B272190F84BF0066A1D9 /* oracle.h */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		6421B244190F848E0066A1D9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				6421B249190F84AB0066A1D9 /* circle.bmp */,
+				6421B24A190F84AB0066A1D9 /* circlealpha.bmp */,
+				6421B24B190F84AB0066A1D9 /* galaxy0.bmp */,
+				6421B24C190F84AB0066A1D9 /* galaxy1.bmp */,
+				6421B24D190F84AB0066A1D9 /* galaxy2.bmp */,
+				6421B24E190F84AB0066A1D9 /* galaxy3.bmp */,
+				6421B24F190F84AB0066A1D9 /* galaxy4.bmp */,
+				6421B250190F84AB0066A1D9 /* galaxy5.bmp */,
+				6421B251190F84AB0066A1D9 /* galaxy6.bmp */,
+				6421B252190F84AB0066A1D9 /* galaxy7.bmp */,
+				6421B253190F84AB0066A1D9 /* galaxy8.bmp */,
+				6421B254190F84AB0066A1D9 /* galaxy9.bmp */,
+				6421B255190F84AB0066A1D9 /* galaxy10.bmp */,
+				6421B256190F84AB0066A1D9 /* messi.bmp */,
+				6421B257190F84AB0066A1D9 /* suntexture.bmp */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		6421B245190F84970066A1D9 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6421B258190F84B60066A1D9 /* triangle_loader.h */,
+				6421B259190F84B60066A1D9 /* auto_array.h */,
+				6421B25A190F84B60066A1D9 /* image.h */,
+				6421B25B190F84B60066A1D9 /* math3d.h */,
+				6421B25C190F84B60066A1D9 /* string_util.h */,
+				6421B25D190F84B60066A1D9 /* vector3.h */,
+				6421B25E190F84B60066A1D9 /* texture.h */,
+			);
+			name = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
