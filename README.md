@@ -15,13 +15,13 @@ A 3D Spaceship Shooting Game to demonstrates usage of OpenGL (1.0)
 
 ##Screenshots
 
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/one.png">
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/two.png">
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/three.png">
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/four.png">
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/five.png">
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/six.png">
-<img src=https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/seven.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/one.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/two.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/three.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/four.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/five.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/six.png">
+<img src="https://raw.githubusercontent.com/channguyen/solar-system-opengl/master/seven.png">
 
 ##Developed By
 
