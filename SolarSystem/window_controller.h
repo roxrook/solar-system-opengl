@@ -14,6 +14,7 @@
 using namespace std;
 
 namespace driver {
+    
     namespace gui_constants {
         // window with and height
         int wnd_width = 800;
