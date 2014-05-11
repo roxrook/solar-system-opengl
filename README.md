@@ -5,12 +5,12 @@ A 3D Spaceship Shooting Game to demonstrates usage of OpenGL (1.0)
 
 ##Features
 
-* Implement scheleton for drawing 3D object separately in update/draw routine.
-* Simplify a lot of boilerplate code in raw OpenGL (push/pop matrix).
+* Implemented skeleton for 3D objects separately in update/draw routine.
+* Simplified a lot of boilerplate code in raw OpenGL API (push/pop matrix).
 * Implemented load and display textures with helper methods, very easy to use.
 * Implemented light model.
 * Had a little bit of physics (gravity perhaps ^_^)
-* Smart movement for torpedo.
+* Implemented smart movement for torpedo.
 
 
 ##Screenshots
