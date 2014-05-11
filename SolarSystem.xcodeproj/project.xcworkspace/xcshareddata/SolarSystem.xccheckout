@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5ECA08C-BFF7-45BF-9C43-58BF99FBD94D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SolarSystem</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCB8C071-8C2B-4D0B-A10C-0A4F77DA66B2</key>
+		<string>https://github.com/channguyen/solar-system-opengl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SolarSystem.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCB8C071-8C2B-4D0B-A10C-0A4F77DA66B2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/channguyen/solar-system-opengl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCB8C071-8C2B-4D0B-A10C-0A4F77DA66B2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCB8C071-8C2B-4D0B-A10C-0A4F77DA66B2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SolarSystem</string>
+		</dict>
+	</array>
+</dict>
+</plist>
