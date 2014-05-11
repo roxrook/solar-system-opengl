@@ -79,6 +79,13 @@
 		6421B270190F84BF0066A1D9 /* missile_moon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = missile_moon.h; sourceTree = "<group>"; };
 		6421B271190F84BF0066A1D9 /* shootable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shootable.h; sourceTree = "<group>"; };
 		6421B272190F84BF0066A1D9 /* oracle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oracle.h; sourceTree = "<group>"; };
+		64B4C8D7191F6DE400D96368 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		64B4C8D8191F6DE400D96368 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		64B4C8D9191F6DE400D96368 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		64B4C8DA191F6DE400D96368 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		64B4C8DB191F6DE400D96368 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		64B4C8DC191F6DE400D96368 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		64B4C8DD191F6DE400D96368 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +109,7 @@
 				6421B23E190F846B0066A1D9 /* OpenGL.framework */,
 				6421B23C190F84610066A1D9 /* Cocoa.framework */,
 				6421B232190F844A0066A1D9 /* SolarSystem */,
-				6421B231190F844A0066A1D9 /* Products */,
+				64B4C8D6191F6DC500D96368 /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +205,21 @@
 				6421B25E190F84B60066A1D9 /* texture.h */,
 			);
 			name = util;
+			sourceTree = "<group>";
+		};
+		64B4C8D6191F6DC500D96368 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				64B4C8D7191F6DE400D96368 /* five.png */,
+				64B4C8D8191F6DE400D96368 /* four.png */,
+				64B4C8D9191F6DE400D96368 /* one.png */,
+				64B4C8DA191F6DE400D96368 /* seven.png */,
+				64B4C8DB191F6DE400D96368 /* six.png */,
+				64B4C8DC191F6DE400D96368 /* three.png */,
+				64B4C8DD191F6DE400D96368 /* two.png */,
+				6421B231190F844A0066A1D9 /* Products */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +383,7 @@
 				6421B23B190F844A0066A1D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
